@@ -83,7 +83,7 @@ check_port() {
     fi
 }
 
-START_PORT=3000
+START_PORT=3001
 while true; do
     check_port $START_PORT
     if [ $? -eq 0 ]; then
@@ -118,8 +118,8 @@ services:
     volumes:
       - /root/chromium/config:/config
     ports:
-      - $PORT_1:3000
-      - $PORT_2:3001
+      - $PORT_1:3001
+      - $PORT_2:3002
     shm_size: "1gb"
     restart: unless-stopped
 EOF
