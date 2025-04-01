@@ -14,7 +14,7 @@
 
 ## RUN
 ```
-curl -s https://raw.githubusercontent.com/sipalingnode/chromium/main/cromium.sh | bash
+curl -s https://raw.githubusercontent.com/yohamakusa/chromium/main/cromium.sh | bash
 ```
 ## Remove
 ```
